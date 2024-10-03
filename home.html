@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>SkillSphere</title>
+        <link rel="stylesheet" href="styles.css"> // stylesheet not working read errors carefully
+    </head>
+
+    <body>
+        <nav id="navbar">
+            <a class="link" href="http://localhost:3000">Home</a>
+            <a class="link" href="http://localhost:3000/play">Play</a>
+            <a class="link" href="http://localhost:3000/social">Ranks</a>
+            <a class="link" href="http://localhost:3000/about">About</a>
+            <script>
+                // for now we will assume they are not logged in
+                const navbar = document.getElementById("navbar");
+                const button = document.createElement("button");
+                button.textContent = "Log in";
+                button.style.border = "2px solid black";
+                button.style.borderRadius = "25px";
+                navbar.appendChild(button);
+            </script>
+        </nav>
+        <h1>I am a full stack web developer now!</h1>
+    </body> 
+</html>

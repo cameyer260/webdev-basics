@@ -1,0 +1,39 @@
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    margin: 0;
+    border-bottom: 2px white solid;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: xx-large;
+    color: white;
+    margin: 0;
+}
+
+.home-div1 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-div1 h2 {
+    text-align: center;
+    margin: 0;
+    width: 50%;
+}

@@ -3,6 +3,8 @@ const express = require("express");
 
 const app = express();
 
+app.use(express.static('public'));
+
 app.get('/', async (request, response) => {
     response.send( await readFile('./home.html', 'utf8'));
 });

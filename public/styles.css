@@ -1,8 +1,9 @@
-body {
+html, body {
     font-family: Verdana, sans-serif;
     margin: 0;
     background-color: black;
     color: white;
+    height: 100%;
 }
 
 .navbar {
@@ -25,15 +26,26 @@ body {
     margin: 0;
 }
 
-.home-div1 {
-    margin-top: 10px;
+.home-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    height: 92.6vh;
+    width: 100vw;
 }
 
-.home-div1 h2 {
+.home-container div {
+    padding-top: 10px;
+    width: 33.333%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
     text-align: center;
-    margin: 0;
-    width: 50%;
+}
+
+.h-left {
+    border-right: 2px solid white;
+}
+
+.h-right {
+    border-left: 2px solid white;
 }

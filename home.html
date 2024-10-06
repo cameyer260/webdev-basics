@@ -19,16 +19,30 @@
                 // for now we will assume they are not logged in
                 const ul = document.getElementById("ul");
                 const loginLink = document.createElement("a");
-                loginLink.href="http://localhost:3000/login"
-                loginLink.text="Login";
-                loginLink.style.position="fixed";
-                loginLink.style.right="0";
-                loginLink.style.top="10";
+                loginLink.href = "http://localhost:3000/login";
+                loginLink.text = "Login";
+                loginLink.style.position = "fixed";
+                loginLink.style.right = "0";
+                loginLink.style.top = "10";
                 ul.appendChild(loginLink);
             </script>
         </nav>
-        <div class="home-div1">
-            <h2>Welcome to <i>SkillSphere</i>, an online platform to compete against your friends in various games to earn points and rise the ranks!</h2>
+        <div class="home-container">
+            <div class="h-left">
+                left div
+            </div>
+            <div class="h-middle">
+                <h2>
+                    Welcome to <i>SkillSphere</i>, an online platform to compete
+                    against your friends in various games to earn points and
+                    rise the ranks!
+                </h2>
+                <h2>Global Leaderboard:</h2>
+                <p>...</p>
+            </div>
+            <div class="h-right">
+                right div
+            </div>
         </div>
     </body>
 </html>

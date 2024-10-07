@@ -27,25 +27,42 @@ html, body {
 }
 
 .home-container {
+    text-align: center;
+    height: 92.64vh;
     display: flex;
     flex-direction: row;
-    height: 92.6vh;
-    width: 100vw;
 }
 
 .home-container div {
-    padding-top: 10px;
-    width: 33.333%;
-    height: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-    text-align: center;
+    width: 33.33vw;
 }
 
-.h-left {
+.home-leftdiv {
     border-right: 2px solid white;
 }
 
-.h-right {
+.home-rightdiv {
     border-left: 2px solid white;
+}
+
+.home-middiv i {
+    color:yellow;
+    font-size: larger;
+}
+
+.home-middiv h4 {
+    max-width: 25vw;
+    margin: 0 auto;
+}
+
+.home-middiv button {
+    background-color: transparent;
+    font-size: larger;
+}
+
+.home-game-controller {
+    position: absolute;
+    top: -500px;
+    left: -200px;
+    z-index: 0;
 }

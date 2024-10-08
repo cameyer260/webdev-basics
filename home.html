@@ -28,14 +28,11 @@
             </script>
         </nav>
         <div class="home-container">
-            <img
-                src="./Untitled design (4).png"
-                height="1920px"
-                width="2500px"
-                class="home-game-controller"
-            />
             <div class="home-leftdiv">
-                <h1>left div</h1>
+                <div>
+                    <img src="./default-icon.jpg" height="75px" width="75px" class="home-leftdiv-profile-pic"/>
+                    <img src="./speech-balloon.png" height="75px" width="350px" />
+                </div>
             </div>
             <div class="home-middiv">
                 <h1>Welcome to <i>SKILLSPHERE!</i></h1>
@@ -43,10 +40,32 @@
                     The place to play against your friends in various games to
                     rank up and earn points!
                 </h4>
-                <button><h1><i>PLAY NOW</i></h1></button>
+                <a href="http://localhost:3000/play">
+                    <h1><i>PLAY NOW</i></h1>
+                    <img
+                        src="./arrowToRight.png"
+                        height="100px"
+                        width="100px"
+                        class="home-arrow-right"
+                    />
+                </a>
+                <a href="http://localhost:3000/about">
+                    <h3><i>MORE</i></h3>
+                    <img
+                        src="./arrowToRight.png"
+                        height="75px"
+                        width="75px"
+                        class="home-arrow-right"
+                    />
+                </a>
             </div>
             <div class="home-rightdiv">
-                <h1>right div</h1>
+                <h1><i>GLOBAL LEADERBOARD</i></h1>
+                <div class="home-rightdiv-container">
+                    <div class="home-rightdiv-board">
+                        the players will then go into rows here
+                    </div>
+                </div>
             </div>
         </div>
     </body>
